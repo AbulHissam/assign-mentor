@@ -4,7 +4,7 @@
 ```
 create student
 POST
-https://assign-mentor-abh.herokuapp.com//api/student
+https://assign-mentor-abh.herokuapp.com/api/student
 
 {
     "name":"Abul Hissam "
@@ -13,12 +13,12 @@ https://assign-mentor-abh.herokuapp.com//api/student
 ```
 fetch students
 GET
-https://assign-mentor-abh.herokuapp.com//api/student
+https://assign-mentor-abh.herokuapp.com/api/student
 ```
 ```
 assignMentor to student
 PUT
-https://assign-mentor-abh.herokuapp.com//api/student/:studentId
+https://assign-mentor-abh.herokuapp.com/api/student/:studentId
 {
     "mentorId":"mentorId"
 }
@@ -28,7 +28,7 @@ https://assign-mentor-abh.herokuapp.com//api/student/:studentId
 ```
 createMentor
 POST
-https://assign-mentor-abh.herokuapp.com//api/mentor
+https://assign-mentor-abh.herokuapp.com/api/mentor
 {
     "name": "mentor 1"
 }
@@ -36,16 +36,16 @@ https://assign-mentor-abh.herokuapp.com//api/mentor
 ```
 fetchMentors
 GET
-https://assign-mentor-abh.herokuapp.com//api/mentor
+https://assign-mentor-abh.herokuapp.com/api/mentor
 ```
 ```
 fetchMentorsByID
 GET
-https://assign-mentor-abh.herokuapp.com//api/mentor/:mentorId
+https://assign-mentor-abh.herokuapp.com/api/mentor/:mentorId
 ```
 ```
 assingnStudents to mentor
-https://assign-mentor-abh.herokuapp.com//api/mentor/:mentorId
+https://assign-mentor-abh.herokuapp.com/api/mentor/:mentorId
 PUT
 {
   "students":["studentId","studentId"]
